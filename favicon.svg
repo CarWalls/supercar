@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Dark background circle -->
+  <circle cx="32" cy="32" r="32" fill="#0d0d12"/>
+  <!-- Car body (simplified supercar silhouette) -->
+  <g fill="#e53935">
+    <!-- Main body -->
+    <path d="M10 36 Q12 28 22 26 L28 22 Q32 20 36 22 L42 26 Q52 28 54 36 L54 40 Q52 42 50 42 L14 42 Q12 42 10 40 Z"/>
+    <!-- Windshield highlight -->
+    <path d="M26 24 L30 21 Q32 20 34 21 L38 24 Q36 23 32 23 Q28 23 26 24 Z" fill="#ff6659" opacity="0.6"/>
+    <!-- Spoiler -->
+    <rect x="44" y="33" width="8" height="2" rx="1" fill="#b71c1c"/>
+  </g>
+  <!-- Windows -->
+  <path d="M26 27 L29 24 Q32 23 35 24 L38 27 Q35 26 32 26 Q29 26 26 27 Z" fill="#1a1a2e" opacity="0.8"/>
+  <!-- Wheels -->
+  <circle cx="20" cy="42" r="5" fill="#1a1a2e"/>
+  <circle cx="20" cy="42" r="3" fill="#333"/>
+  <circle cx="44" cy="42" r="5" fill="#1a1a2e"/>
+  <circle cx="44" cy="42" r="3" fill="#333"/>
+  <!-- Headlights -->
+  <ellipse cx="52" cy="36" rx="2" ry="1.5" fill="#ffcc00" opacity="0.9"/>
+  <ellipse cx="12" cy="36" rx="2" ry="1.5" fill="#ffcc00" opacity="0.4"/>
+</svg>
